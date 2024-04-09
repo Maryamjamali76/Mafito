@@ -1,0 +1,47 @@
+﻿
+<html>
+    <body>
+        <div class="roomCreate">
+            <input type="text" id="roomNameTxt" value="room1" disabled="true" />
+            </br>
+            <input id="username"> your name</>
+        </div>
+        <div>
+            <button id="createRoomBtn">Add User</button>
+        </div>
+        <div class="borderLine"></div>
+        
+        <div>
+            <h3>users :</h3>
+            <table id="users">
+            </table>
+        </div>
+        <div class="borderLine"></div>
+        <div>
+            <button id="StartGameBtn">Lunch the game</button>
+        </div>
+        
+        
+        <div class="borderLine"></div>
+        
+        <div>
+            <div id="chatPanel">
+                <div class="message-input">
+                    <input type="text" id="messageInput" placeholder="Type your message...">
+                    <button id="sendMessageBtn">Send Message</button>
+                    <button id="toggleMessagesBtn" onclick="toggleMessages()">Toggle Messages</button>
+                </div>
+        
+                
+                <div id="messagesContainer" class="collapsed"></div>
+            </div>
+            <div class="borderLine"></div>
+        
+            <iframe allow="camera; microphone; display-capture; autoplay;" src="https://fakoori.digitalsamba.com/demo-room" allowfullscreen="true" width="100%" height="600px"></iframe>
+        
+           
+        </div>
+    </body>
+</html>
+
+
